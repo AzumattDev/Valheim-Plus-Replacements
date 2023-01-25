@@ -74,7 +74,7 @@ A few mods are needed to replace this section. I will break them down by the opt
 * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
 
 
-[Game]
+## [Game]
 
 ### gameDifficultyDamageScale, gameDifficultyHealthScale, extraPlayerCountNearby, setFixedPlayerCountTo, difficultyScaleRange
  * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
@@ -104,501 +104,174 @@ A few mods are needed to replace this section. I will break them down by the opt
  * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
  * [FloatingItems](https://valheim.thunderstore.io/package/castix/FloatingItems/)
  
-[Hud]
+## [Hud]
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [BetterUI_Reforged](https://valheim.thunderstore.io/package/thedefside/BetterUI_Reforged/)
+ * [Improved Build Hud](https://valheim.thunderstore.io/package/RandyKnapp/ImprovedBuildHud/)
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#HUD
-enabled=false
-
-; Shows the required amount of items AND the amount of items in your inventory in build mode and while crafting.
-; This is enabled when the CraftFromChest section is enabled.
-showRequiredItems=false
-
-; Shows small notifications about all skill experienced gained in the top left corner.
-experienceGainedNotifications=false
-
-; Set to true to remove the red screen flash overlay when the player takes damage.
-removeDamageFlash=false
-
-; If bow is in hotbar, display current ammo & total ammo under hotbar icon - never (0), when equipped (1), or always (2).
-displayBowAmmoCounts=0
-
-[Gathering]
-
-; Change false to true to enable this section. This section contains modifiers. Modifiers are increases and reduction in percent declared by 50, or -50. https://valheim.plus/documentation/list#Gathering
-enabled=false
-
-; Modify the chance to drop resources from resource nodes affected by this category. This only works on resource nodes that do not have guaranteed drops. 
-; As example by default scrap piles in dungeons have a 20% chance to drop a item, if you set this option to 200, you will then have a 60% chance to drop iron.
-dropChance=0
-
-; Each of these values increase or reduce the dropped items from destroyed objects with tools (Stones, Trees, Resource nodes, etc.) by %. 
-; The value 50 will increase the dropped wood from trees from 10 to 15. The value -50 will reduce the amount of dropped wood from 10 to 5.
-wood=0
-stone=0
-fineWood=0
-coreWood=0
-elderBark=0
-ironScrap=0
-tinOre=0
-copperOre=0
-silverOre=0
-chitin=0
-
-[Pickable]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Pickable
-; Each value below (in percent) will modify the yield when "picking" items (default key E) such as berries and flowers. 
-; A value of 100 will double drops, 200 will triple and so on.
-enabled=false
-
-; All berries, all mushrooms, onions and carrots
-edibles=0
-
-; Barley, Flax, Dandelion, Thistle, Carrot Seeds, Turnip Seeds, Turnip, Onion Seeds
-flowersAndIngredients=0
-
-; Bone Fragments, Flint, Stone, Wood (branches on the ground)
-materials=0
-
-; Amber, Amber Pearl, Coins, Ruby
-valuables=0
-
-; Surtling Core only
-surtlingCores=0
-
-[Durability]
-
-; Change false to true to enable this section. This section contains modifiers. https://valheim.plus/documentation/list#Durability
-; Modifiers are increases and reduction in percent declared by 50, or -50. 
-enabled=false
-
-; Each of these values increase or reduce the durability of the specific item type by %. 
-; The value 50 will increase the durability from 100 to 150. The value -50 will reduce the durability from 100 to 50.
-axes=0
-pickaxes=0
-hammer=0
-cultivator=0
-hoe=0
-weapons=0
-armor=0
-bows=0
-shields=0
-torch=0
-
-[Armor]
-
-; Change false to true to enable this section. This section contains modifiers. https://valheim.plus/documentation/list#Armor
-; Modifiers are increases and reduction in percent declared by 50, or -50. 
-enabled=false
-
-; Each of these values increase or reduce the armor of the specific item type by %. 
-; The value 50 will increase the armor from 14 to 21. The value -50 will reduce the armor from 14 to 7.
-helmets=0
-chests=0
-legs=0
-capes=0
+## [Gathering]
+  * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
+  * [DropThat](https://valheim.thunderstore.io/package/ASharpPen/Drop_That/)
 
 
-[Kiln]
+## [Pickable]
+* [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Kiln
-enabled=false
+## [Durability]
+## [Armor]
+ * [Durability Tweaks](https://valheim.thunderstore.io/package/OdinPlus/Durability_Tweaks/)
 
-; Maximum amount of wood in a Kiln.
-maximumWood=25
 
-; Change false to true to disable Fine Wood processing.
-dontProcessFineWood=false
+## [Kiln]
+ * [Automatics]()
+ * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
+ * [AutomaticFuel](https://valheim.thunderstore.io/package/TastyChickenLeg/AutomaticFuel/)
 
-; Change false to true to disabled Round Log processing.
-dontProcessRoundLog=false
-
-; The time it takes for the Kiln to produce a single piece of coal in seconds.
-productionSpeed=15
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; The Kiln will pull wood from nearby chests to be automatically added to it when its empty.
-; This option respects the dontProcessFineWood and dontProcessRoundLog settings.
-autoFuel=false
-
-; Stops autoFuel (looking for fuel) when there is at leasts this quantity of Coal in nearby chests 
-; (ignored if set to 0)
-stopAutoFuelThreshold=0
-
-; This option prevents the Kiln to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto deposit and fuel features. 
-; Maximum is 50
-autoRange=10
 
 [Map]
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Map
-enabled=false
+<em>The In-game cartography table does most of this now</em>
 
-; With this enabled you will receive the same exploration progression as other players on the server. 
-; This will also enable the option for the server to sync everyones exploration progression on connecting to the server.
-shareMapProgression=false
+You can replace some of the features with
 
-; The radius of the map that you explore when moving.
-exploreRadius=100
+<em>Beware, displaying boats and carts as well as player built buildings is resource heavy!</em>
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [AzuMapDetails](https://valheim.thunderstore.io/package/Azumatt/AzuMapDetails/)
 
-; Prevents you and other people on the server to turn off their map sharing option.
-preventPlayerFromTurningOffPublicPosition=false
 
-; This option automatically shares created pins with everyone playing on the server.
-shareAllPins=false
+## [Player]
 
-; Display carts and boats on the map
-displayCartsAndBoats=false
+### baseMaximumWeight, baseMegingjordBuff, baseAutoPickUpRange
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
 
-[Player]
+### cropNotifier
+ * [PlantEverything](https://valheim.thunderstore.io/package/Advize/PlantEverything/)
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/) <em>Please note, as of Mistlands patch this has some issues PreventPlantTooClose option might not work correctly with Mistlands plants</em>
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Player
-enabled=false
+> [UNKNOWN] How many seconds each comfort level contributes to the rested bonus.  restSecondsPerComfortLevel=60
 
-; The base amount of carry weight of your character.
-baseMaximumWeight=300
+### deathPenaltyMultiplier
+ * [ServerSyncDeathTweaks](https://valheim.thunderstore.io/package/OdinPlus/ServerSyncDeathTweaks/)
+ * [DeathPenalty](https://valheim.thunderstore.io/package/Crystal/DeathPenalty/)
+ * And a lot more mods. Just search `Death` on `valheim.thunderstore.io`
 
-; Increase the buff you receive to your carry weight from Megingjord's girdle.
-baseMegingjordBuff=150
+### autoRepair
+ * [AzuWorkbenchInventoryRepair](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbench_Inventory_Repair/)
 
-; Increase auto pickup range of all items.
-baseAutoPickUpRange=2
-
-; Disable all types of camera shake.
-disableCameraShake=false
-
-; The base unarmed damage multiplied by your skill level. 120 will result in a maximum of up to 12 damage when you have a skill level of 10.
-baseUnarmedDamage=70
-
-; When changed to true, you will not be permitted to place a crop within the grow radius of another crop.
-cropNotifier=false
-
-; How many seconds each comfort level contributes to the rested bonus.
-restSecondsPerComfortLevel=60
-
-; Change the death penalty in percentage, where higher will increase the death penalty and lower will reduce it. 
-; This is a modifier value. 50 will increase it by 50%, -50 will reduce it by 50%.
-deathPenaltyMultiplier=0
-
-; If set to true, this option will automatically repair your equipment when you interact with the appropriate workbench.
-autoRepair=false
-
-; Boss buff duration (seconds)
-guardianBuffDuration=300
+> [UNKNOWN] Boss buff duration (seconds) (guardianBuffDuration)
 
 ; Boss buff cooldown (seconds)
 guardianBuffCooldown=1200
 
-; Disable the Guardian Buff animation
-disableGuardianBuffAnimation=false
+> [UNKNOWN] Disable the Guardian Buff animation (disableGuardianBuffAnimation)
 
-; If set to true, when equipping a one-handed weapon, the best shield from your inventory is automatically equipped. 
-; (Best is determined by highest block power)
-autoEquipShield=false
+### autoEquipShield, autoUnequipShield
+ * [Shield_Auto_Equip](https://valheim.thunderstore.io/package/Zinal001/Shield_Auto_Equip/)
 
-; When unequipping a one-handed weapon also unequip shield from inventory.
-autoUnequipShield=false
-
-; If set to true, weapon switches requested mid-attack will be carried out when the current attack is finished instead of being ignored.
-queueWeaponChanges=false
-
-; If set to true, you will always skip the intro of the game.
-skipIntro=false
-
-; If set to false, disables the "I have arrived!" message on player spawn.
-iHaveArrivedOnSpawn=true
-
-; If set to true, you will not put away / unequip your items when swimming.
-dontUnequipItemsWhenSwimming=false
-
-; If set to true, items will be re-equipped when you exit water after swimming (if they were hidden automatically)
-reequipItemsAfterSwimming=false
-
-; This value represents how much the fall damage should be scaled in +/- %. This is a modifier value.
-; The value 50 would result in 50% increased fall damage. The value -50 would result in 50% reduced fall damage.
-fallDamageScalePercent=0
-
-; Max fall damage. Game default is 100 (so with enough health, falls can't kill).
-maxFallDamage=100
-
-; If set to true, all tutorials will skip from now on. You can turn this config off and reset the tutorial (in the settings) at any time.
-skipTutorials=false
-
-; Disable the encumbered state when you carry too many items (overweight)
-disableEncumbered=false
-
-; Allow auto pickup of items when encumbered (overweight)
-autoPickUpWhenEncumbered=false
-
-[Server]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Server
-enabled=true
-
-; Modify the maximum amount of players on your Server.
-maxPlayers=10
-
-; Removes the requirement to have a server password.
-disableServerPassword=false
-
-; This settings add a version control check to make sure that people that try to join your game or the server you try to join has V+ installed
-; WE HEAVILY RECOMMEND TO NEVER DISABLE THIS!
-enforceMod=true
-
-; Changes whether the server will force it's config on clients that connect. Only affects servers.
-; WE HEAVILY RECOMMEND TO NEVER DISABLE THIS!
-serverSyncsConfig=true
-
-; If false allows you to keep your own defined hotkeys instead of synchronising the ones declared for the server. 
-; Sections need to be enabled in your local configuration to load hotkeys. 
-; This is a client side setting and not affected by server settings.
-serverSyncHotkeys=false
+> [UNKNOWN] If set to true, weapon switches requested mid-attack will be carried out when the current attack is finished instead of being ignored. (queueWeaponChanges)
 
 
-[Stamina]
+### skipIntro
+ * [Skip_The_Valkyrie_Flying_Intro](https://valheim.thunderstore.io/package/By_FioteBearDev_reuploaded/Skip_The_Valkyrie_Flying_Intro/)
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+ * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
 
-; Change false to true to enable this section. This section contains modifiers. https://valheim.plus/documentation/list#Stamina
-; Modifiers are increases and reduction in percent declared by 50, or -50.
-enabled=false
+### iHaveArrivedOnSpawn
+ * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
 
-; Changes the amount of stamina cost of using the dodge roll by %
-dodgeStaminaUsage=0
+### dontUnequipItemsWhenSwimming
+ * [UseEquipmentInWater](https://valheim.thunderstore.io/package/LVH-IT/UseEquipmentInWater/)
 
-; Changes the stamina drain of being overweight by %
-encumberedStaminaDrain=0
-
-; Changes the stamina cost of jumping by %
-jumpStaminaDrain=0
-
-; Changes the stamina cost of running by %
-runStaminaDrain=0
-
-; Changes the stamina drain by sneaking by %
-sneakStaminaDrain=0
-
-; Changes the total amount of stamina recovered per second by %
-staminaRegen=0
-
-; Changes the delay until stamina regeneration sets in by %
-staminaRegenDelay=0
-
-; Changes the stamina drain of swimming by %
-swimStaminaDrain=0
+### reequipItemsAfterSwimming
+ * [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 
 
-[StaminaUsage]
+### fallDamageScalePercent
+ * [GracefulLanding](https://valheim.thunderstore.io/package/Crystal/GracefulLanding/)
 
-; Change false to true to enable this section. This section contains modifiers. https://valheim.plus/documentation/list#StaminaUsage
-; Modifiers are increases and reduction in percent declared by 50, or -50.
-enabled=false
 
-; Each of these values change the respective tool in stamina usage by increases and reduction in percent declared by 50, or -50.
-axes=0
-blocking=0
-bows=0
-clubs=0
-knives=0
-pickaxes=0
-polearms=0
-spears=0
-swords=0
-unarmed=0
-hammer=0
-hoe=0
-cultivator=0
-fishing=0
+### skipTutorials
+ * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
+
+### disableEncumbered
+ * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+
+
+### autoPickUpWhenEncumbered
+ * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+
+### [Server]
+
+
+### maxPlayers
+ * [MaxPlayerCount](https://valheim.thunderstore.io/package/Azumatt/MaxPlayerCount/)
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
+
+
+### disableServerPassword
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
+
+
+## [Stamina]
+ * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
+ * [VikingsDoSwim](https://valheim.thunderstore.io/package/blacks7ar/VikingsDoSwim/)
+
+
+## [StaminaUsage]
+ * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
+
 
 [StructuralIntegrity]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#StructuralIntegrity
-enabled=false
-
-; Disables the entire structural integrity system and allows for placement in free air, does not prevent building damage.
-disableStructuralIntegrity=false
-
-; Disables any damage from anything to all player built structures. Does not prevent damage from structural integrity.
-disableDamageToPlayerStructures=false
-
-; Disables any damage from anything to all player built boats.
-disableDamageToPlayerBoats=false
-
-; Disables water force damage to all player built boats.
-disableWaterDamageToPlayerBoats=false
-
-; Disables any damage from anything to all player built carts.
-disableDamageToPlayerCarts=false
-
-; Disables water force damage to all player built carts.
-disableWaterDamageToPlayerCarts=false
-
-; Each of these values reduce the loss of structural integrity by distance by % less. 
-; The value 100 would result in disabled structural integrity over distance, does not allow for placement in free air without disableStructuralIntegrity.
-wood=0
-stone=0
-iron=0
-hardWood=0
-marble=0
+* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+* [AzuWearNTearPatches](https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/)
 
 [Ward]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Ward
-enabled=false
-
-; The range of wards by meters.
-wardRange=20
-
-; Set the enemy spawn radius around wards in meters
-; This value equals wardRange if its set to 0.
-wardEnemySpawnRange=0
+ * [BetterWards](https://valheim.thunderstore.io/package/Azumatt/BetterWards/)
+ * [WardIsLove](https://valheim.thunderstore.io/package/Azumatt/WardIsLove/)
 
 [Workbench]
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Workbench
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+ * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
+ * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
+
+> 
+> UKNOWN [Wagon]
+
+> Change false to true to enable this section. https://valheim.plus/documentation/list#Wagon
 enabled=false
 
-; Set the workbench radius in meters.
-workbenchRange=20
+> Change the base wagon physical mass of the wagon object.
+> This is essentially the base weight of a cart.
+> wagonBaseMass=20
 
-; Set the enemy spawn radius around workbenches in meters
-; This value equals workbenchRange if its set to 0.
-workbenchEnemySpawnRange=0
+> This value changes the physical weight of wagons by +/- more/less from item weight inside. 
+> The value 50 would increase the weight by 50% more. The value -100 would remove the entire extra weight.
+> wagonExtraMassFromItems=0
 
-; Sets the workbench attachment (e.g. anvil) radius.
-workbenchAttachmentRange=5
+## [Inventory]
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/) <em>Has ExtendedInventory section already in it.</em>
+ * [OdinsExtendedInventory](https://valheim.thunderstore.io/package/OdinPlus/OdinsExtendedInventory/) <em>Or literally any variation of it can replace most things from this section</em>
+ * [AzuContainerSizes](https://valheim.thunderstore.io/package/Azumatt/AzuContainerSizes/)
 
-; Disables the roof and exposure requirement to use a workbench.
-disableRoofCheck=false
+## [FreePlacementRotation]
+  * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
+  * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
 
-[Wagon]
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Wagon
-enabled=false
-
-; Change the base wagon physical mass of the wagon object.
-; This is essentially the base weight of a cart.
-wagonBaseMass=20
-
-; This value changes the physical weight of wagons by +/- more/less from item weight inside. 
-; The value 50 would increase the weight by 50% more. The value -100 would remove the entire extra weight.
-wagonExtraMassFromItems=0
-
-[Inventory]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Inventory
-enabled=false
-
-; Player inventory number of rows (inventory is resized up to 6 rows, higher values will add a scrollbar). default 4, min 4, max 20
-playerInventoryRows=4
-
-; Wood chest number of columns 
-; (default 5, 3 min, 8 max)
-woodChestColumns=5
-
-; Wood chest number of rows (more than 4 rows will add a scrollbar).
-; (default 2, min 2, 10 max)
-woodChestRows=2
-
-; Personal chest number of columns.
-; (default 3, 3 min, 8 max)
-personalChestColumns=3
-
-; Personal chest number of rows 
-; (default 2, 2 min, 20 max)
-personalChestRows=2
-
-; Iron chest number of columns.
-; (default 6, min 3, max 8)
-ironChestColumns=6
-
-; Iron chest number of rows (more than 4 rows will add a scrollbar) 
-; (default 4, min 3, max 20)
-ironChestRows=4
-
-; Blackmetal chests already have 8 columns by default but now you can lower it 
-; (default 8, min 3, max 8)
-blackmetalChestColumns=8
-
-; Blackmetal number of rows (more than 4 rows will add a scrollbar) 
-; (default 4, min 3, max 20)
-blackmetalChestRows=4
-
-; Cart (Wagon) inventory number of columns 
-; (default 8, min 6, max 8)
-cartInventoryColumns=8
-
-; Cart (Wagon) inventory number of rows (more than 4 rows will add a scrollbar) 
-; (default 3, min 3, max 30)
-cartInventoryRows=3
-
-; Karve (small boat) inventory number of columns 
-; (default 2, min 2, max 8)
-karveInventoryColumns=2
-
-; Karve (small boat) inventory number of rows (more than 4 rows will add a scrollbar) 
-; (default 2, min 2, max 30)
-karveInventoryRows=2
-
-; Longboat (large boat) inventory number of columns 
-; (default 8, min 6, max 8)
-longboatInventoryColumns=8
-
-; Longboat (large boat) inventory number of rows (more than 4 rows will add a scrollbar) 
-; (default 3, min 3, max 30)
-longboatInventoryRows=3
-
-; By default tools and weapons go into inventories top to bottom and other materials bottom to top. 
-; Set to true to make all items go into the inventory top to bottom.
-inventoryFillTopToBottom=false
-
-; By default items go to their original position when picking up your tombstone. 
-; Set to true to make all stacks try to merge with an existing stack first.
-mergeWithExistingStacks=false
-
-[FreePlacementRotation]
-
-; Change false to true to enable this section, if you set this to false the mode will not be accessible. https://valheim.plus/documentation/list#FreePlacementRotation
-enabled=false
-
-; Rotates placement marker by 1 degree with keep ability to attach to nearly pieces.
-rotateY=LeftAlt
-rotateX=C
-rotateZ=V
-
-; Copy rotation of placement marker from target piece in front of you.
-copyRotationParallel=F
-
-; Set rotation to be perpendicular to piece in front of you.
-copyRotationPerpendicular=G
-
-[Shields]
-
-; Change false to true to enable this section, if you set this to false the mode will not be accessible. https://valheim.plus/documentation/list#Shields
-enabled=false
-
-; Increase or decrease the block value on all shields in %. -50 would be 50% less block rating, 50 would be 50% more block rating.
+> UNKNOWN [Shields]
+> Increase or decrease the block value on all shields in %. -50 would be 50% less block rating, 50 would be 50% more block rating.
 blockRating=0
 
 [FirstPerson]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#FirstPerson
-enabled=false
-
-; Hotkey to enable First Person.
-hotkey=F10
-
-; Default Field Of View to use.
-defaultFOV=65.0
-
-; Hotkey to raise Field Of View.
-raiseFOVHotkey=PageUp
-
-; Hotkey to lower Field Of View.
-lowerFOVHotkey=PageDown
+* [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
 [GridAlignment]
 
@@ -616,32 +289,8 @@ alignToggle=F7
 changeDefaultAlignment=F6
 
 [CraftFromChest]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#CraftFromChest
-; This feature allows you to craft from nearby chests when in range.
-enabled=false
-
-; Change false to true to disable this feature when using a Cooking Station.
-disableCookingStation=false
-
-; If in a workbench area, uses it as reference point when scanning for chests.
-checkFromWorkbench=true
-
-; This option prevents crafting to pull items from warded areas if the player doesnt have access to it.
-ignorePrivateAreaCheck=false
-
-; The range of the chest detection in meters.
-range=20
-
-; The interval in seconds that the feature scans your nearby chests.
-; We recommend not going below 3 seconds.
-lookupInterval=3
-
-; Allows the system to use and see contents of carts for crafting. Might also allow use of other modded containers or vehicles not accessible otherwise.
-allowCraftingFromCarts=false
-
-; Allows the system to use and see contents of ships for crafting. Might also allow use of other modded containers or vehicles not accessible otherwise.
-allowCraftingFromShips=false
+ * [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/)
+ * [CraftFromContainers](https://valheim.thunderstore.io/package/aedenthorn_mods/CraftFromContainers/) <em>Any variation of it from aedenthorn. Recommended to get the latest listed here though</em>
 
 [Windmill]
 
