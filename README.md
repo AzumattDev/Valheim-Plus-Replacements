@@ -174,17 +174,17 @@ You can replace some of the features with
 ### autoRepair
  * [AzuWorkbenchInventoryRepair](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbench_Inventory_Repair/)
 
-> [UNKNOWN] Boss buff duration (seconds) (guardianBuffDuration)
+> [REPLACEMENT UNKNOWN] Boss buff duration (seconds) (guardianBuffDuration)
 
 > Boss buff cooldown (seconds)
 > guardianBuffCooldown=1200
 
-> UNKNOWN ## Disable the Guardian Buff animation (disableGuardianBuffAnimation)
+> REPLACEMENT UNKNOWN ## Disable the Guardian Buff animation (disableGuardianBuffAnimation)
 
 ### autoEquipShield, autoUnequipShield
  * [Shield_Auto_Equip](https://valheim.thunderstore.io/package/Zinal001/Shield_Auto_Equip/)
 
-> UNKNOWN ## If set to true, weapon switches requested mid-attack will be carried out when the current attack is finished instead of being ignored. (queueWeaponChanges)
+> REPLACEMENT UNKNOWN ## If set to true, weapon switches requested mid-attack will be carried out when the current attack is finished instead of being ignored. (queueWeaponChanges)
 
 
 ### skipIntro
@@ -257,7 +257,7 @@ You can replace some of the features with
  * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
  * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 
-> UNKNOWN ## [Wagon]
+> REPLACEMENT UNKNOWN ## [Wagon]
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#Wagon
 enabled=false
@@ -280,14 +280,14 @@ enabled=false
   * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
 
 
-> ## [Shields] UNKNOWN
+> ## [Shields] REPLACEMENT UNKNOWN
 > Increase or decrease the block value on all shields in %. -50 would be 50% less block rating, 50 would be 50% more block rating.
 > blockRating=0
 
 ## [FirstPerson]
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
-> ## [GridAlignment] UNKNOWN
+> ## [GridAlignment] REPLACEMENT UNKNOWN
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#GridAlignment
 > This offers a global fixed grid system to make precise placements.
@@ -313,7 +313,7 @@ enabled=false
 * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
 
 
-> ## [PlayerProjectile]  UNKNOWN
+> ## [PlayerProjectile]  REPLACEMENT UNKNOWN
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#PlayerProjectile
 > enabled=false
@@ -334,7 +334,7 @@ playerMaxChargeAccuracyMultiplier=0
 enableScaleWithSkillLevel=false
 
 
-> ## [MonsterProjectile] UNKNOWN
+> ## [MonsterProjectile] REPLACEMENT UNKNOWN
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#MonsterProjectile
 > enabled=false
@@ -346,7 +346,7 @@ enableScaleWithSkillLevel=false
 > monsterMaxChargeAccuracyMultiplier=0
 
 
-> ## [Tameable] UNKNOWN
+> ## [Tameable] REPLACEMENT UNKNOWN
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#Tameable
 enabled=false
@@ -371,12 +371,12 @@ stunRecoveryTime=10
  * [ClockMod](https://valheim.thunderstore.io/package/RagnarokHCRP/Clock/) <em>Any variation of it from aedenthorn. Recommended to get the latest from her nexus page if you want to use her version. Do not get re-uploads as they get outdated quickly</em>
 
 
-> ## [Brightness] UNKNOWN
+> ## [Brightness] REPLACEMENT UNKNOWN
 
 > Changes how bright it looks at night. A value between 5 and 10 will result in nearly double in brightness at night. 
 nightBrightnessMultiplier=0
 
-> ## [Chat] UNKNOWN
+> ## [Chat] REPLACEMENT UNKNOWN
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#Chat
 enabled = false
