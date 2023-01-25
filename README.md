@@ -1,5 +1,5 @@
 # Valheim-Plus-Replacements
-Curated list of replacement mods for Valheim Plus.
+<h1>Curated list of replacement mods for Valheim Plus.</h1>
 
 
 ## [ValheimPlus]
