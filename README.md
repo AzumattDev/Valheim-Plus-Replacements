@@ -55,7 +55,7 @@ A few mods are needed to replace this section. I will break them down by the opt
 * [AzuSkillTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuSkillTweaks/)
 
 ## [Fermenter]
-
+ * [FermenterUtilities](https://valheim.thunderstore.io/package/Smallo/FermenterUtilities/) <em>Possible this needs to be updated </em>
 
 ## [FireSource]
 <em>Please look through the mods depending on what you want to accomplish. Not all of them work the same.</em>
