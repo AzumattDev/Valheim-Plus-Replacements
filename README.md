@@ -161,8 +161,8 @@ You can replace some of the features with
 
 > [UNKNOWN] Boss buff duration (seconds) (guardianBuffDuration)
 
-; Boss buff cooldown (seconds)
-guardianBuffCooldown=1200
+> Boss buff cooldown (seconds)
+> guardianBuffCooldown=1200
 
 > UNKNOWN ## Disable the Guardian Buff animation (disableGuardianBuffAnimation)
 
@@ -233,11 +233,11 @@ guardianBuffCooldown=1200
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [AzuWearNTearPatches](https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/)
 
-[Ward]
+## [Ward]
  * [BetterWards](https://valheim.thunderstore.io/package/Azumatt/BetterWards/)
  * [WardIsLove](https://valheim.thunderstore.io/package/Azumatt/WardIsLove/)
 
-[Workbench]
+## [Workbench]
  * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
  * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
  * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
@@ -265,29 +265,29 @@ enabled=false
   * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
 
 
-> UNKNOWN ## [Shields]
+> ## [Shields] UNKNOWN
 > Increase or decrease the block value on all shields in %. -50 would be 50% less block rating, 50 would be 50% more block rating.
-blockRating=0
+> blockRating=0
 
-[FirstPerson]
+## [FirstPerson]
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
-> UNKNOWN ## [GridAlignment]
+> ## [GridAlignment] UNKNOWN
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#GridAlignment
 > This offers a global fixed grid system to make precise placements.
-enabled=false
+> enabled=false
 
 > Key to enable grid alignment.
-align=LeftAlt
+> align=LeftAlt
 
 > Key to toggle grid alignment.
-alignToggle=F7
+> alignToggle=F7
 
 > Key to change the default alignment.
-changeDefaultAlignment=F6
+> changeDefaultAlignment=F6
 
-[CraftFromChest]
+## [CraftFromChest]
  * [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/)
  * [CraftFromContainers](https://valheim.thunderstore.io/package/aedenthorn_mods/CraftFromContainers/) <em>Any variation of it from aedenthorn. Recommended to get the latest listed here though</em>
 
