@@ -149,7 +149,7 @@ You can replace some of the features with
  * [PlantEverything](https://valheim.thunderstore.io/package/Advize/PlantEverything/)
  * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/) <em>Please note, as of Mistlands patch this has some issues PreventPlantTooClose option might not work correctly with Mistlands plants</em>
 
-> [UNKNOWN] How many seconds each comfort level contributes to the rested bonus.  restSecondsPerComfortLevel=60
+> UNKNOWN ## How many seconds each comfort level contributes to the rested bonus.  restSecondsPerComfortLevel=60
 
 ### deathPenaltyMultiplier
  * [ServerSyncDeathTweaks](https://valheim.thunderstore.io/package/OdinPlus/ServerSyncDeathTweaks/)
@@ -164,12 +164,12 @@ You can replace some of the features with
 ; Boss buff cooldown (seconds)
 guardianBuffCooldown=1200
 
-> [UNKNOWN] Disable the Guardian Buff animation (disableGuardianBuffAnimation)
+> UNKNOWN ## Disable the Guardian Buff animation (disableGuardianBuffAnimation)
 
 ### autoEquipShield, autoUnequipShield
  * [Shield_Auto_Equip](https://valheim.thunderstore.io/package/Zinal001/Shield_Auto_Equip/)
 
-> [UNKNOWN] If set to true, weapon switches requested mid-attack will be carried out when the current attack is finished instead of being ignored. (queueWeaponChanges)
+> UNKNOWN ## If set to true, weapon switches requested mid-attack will be carried out when the current attack is finished instead of being ignored. (queueWeaponChanges)
 
 
 ### skipIntro
@@ -242,8 +242,7 @@ guardianBuffCooldown=1200
  * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
  * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 
-> 
-> UKNOWN [Wagon]
+> UNKNOWN ## [Wagon]
 
 > Change false to true to enable this section. https://valheim.plus/documentation/list#Wagon
 enabled=false
@@ -266,26 +265,26 @@ enabled=false
   * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
 
 
-> UNKNOWN [Shields]
+> UNKNOWN ## [Shields]
 > Increase or decrease the block value on all shields in %. -50 would be 50% less block rating, 50 would be 50% more block rating.
 blockRating=0
 
 [FirstPerson]
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
-[GridAlignment]
+> UNKNOWN ## [GridAlignment]
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#GridAlignment
-; This offers a global fixed grid system to make precise placements.
+> Change false to true to enable this section. https://valheim.plus/documentation/list#GridAlignment
+> This offers a global fixed grid system to make precise placements.
 enabled=false
 
-; Key to enable grid alignment.
+> Key to enable grid alignment.
 align=LeftAlt
 
-; Key to toggle grid alignment.
+> Key to toggle grid alignment.
 alignToggle=F7
 
-; Key to change the default alignment.
+> Key to change the default alignment.
 changeDefaultAlignment=F6
 
 [CraftFromChest]
@@ -346,112 +345,91 @@ ignorePrivateAreaCheck=true
 autoRange=10
 
 
-[PlayerProjectile]  
+> ## [PlayerProjectile]  UNKNOWN
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#PlayerProjectile
-enabled=false
+> Change false to true to enable this section. https://valheim.plus/documentation/list#PlayerProjectile
+> enabled=false
 
-; Value of 50 would increase the minimum charge velocity from 2 to 3.
+> Value of 50 would increase the minimum charge velocity from 2 to 3.
 playerMinChargeVelocityMultiplier=0
 
-; Value of 50 would increase the maximum charge velocity (of Finwood bow) from 50 to 75.
+> Value of 50 would increase the maximum charge velocity (of Finwood bow) from 50 to 75.
 playerMaxChargeVelocityMultiplier=0
 
-; Value of (+)50 increase in accuracy will change the variance of arrows 20 degree to 10 degree at the point of minimum charge release.
+> Value of (+)50 increase in accuracy will change the variance of arrows 20 degree to 10 degree at the point of minimum charge release.
 playerMinChargeAccuracyMultiplier=0
 
-; Value of (+)50 increase in accuracy will change the variance of arrows 1 degree to 0.5 degree at the point of maximum charge release.
+> Value of (+)50 increase in accuracy will change the variance of arrows 1 degree to 0.5 degree at the point of maximum charge release.
 playerMaxChargeAccuracyMultiplier=0
 
-; Enabling this option will linearly scale by skill level from the base values of the weapon to the modified values (according to multipliers above).
+> Enabling this option will linearly scale by skill level from the base values of the weapon to the modified values (according to multipliers above).
 enableScaleWithSkillLevel=false
 
 
-[MonsterProjectile]
+> ## [MonsterProjectile] UNKNOWN
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#MonsterProjectile
+> Change false to true to enable this section. https://valheim.plus/documentation/list#MonsterProjectile
+> enabled=false
+
+> Value of 10 would increase the projectile velocity from 50 to 55.
+> monsterMaxChargeVelocityMultiplier=0
+
+> Value of (+)10 increase in accuracy will change the variance of projectile 1 degree to 0.9 degree at the point of projectile release.
+> monsterMaxChargeAccuracyMultiplier=0
+
+
+> ## [Tameable] UNKNOWN
+
+> Change false to true to enable this section. https://valheim.plus/documentation/list#Tameable
 enabled=false
 
-; Value of 10 would increase the projectile velocity from 50 to 55.
-monsterMaxChargeVelocityMultiplier=0
+> Modify what happens when a tamed creature is attacked. 
+> 0 = normal, 1 = essential(deadly attacks stun instead of kill, tamed creatures can still die rarely), 2 = immortal.
+> mortality=0
 
-; Value of (+)10 increase in accuracy will change the variance of projectile 1 degree to 0.9 degree at the point of projectile release.
-monsterMaxChargeAccuracyMultiplier=0
-
-
-[Tameable]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Tameable
-enabled=false
-
-; Modify what happens when a tamed creature is attacked. 
-; 0 = normal, 1 = essential(deadly attacks stun instead of kill, tamed creatures can still die rarely), 2 = immortal.
-mortality=0
-
-; This will circumvent the mortality setting, so even if tamed creatures are immortal, players can still kill them with a butcher knife.
-; For this option to work you need to have mortality to set to either essential or immortal.
+> This will circumvent the mortality setting, so even if tamed creatures are immortal, players can still kill them with a butcher knife.
+> For this option to work you need to have mortality to set to either essential or immortal.
 ownerDamageOverride=true
 
-; How long it takes for a tamed creature to recover if mortality is set to 1(essential) and they are stunned.
+> How long it takes for a tamed creature to recover if mortality is set to 1(essential) and they are stunned.
 stunRecoveryTime=10
 
-; If the tamed creature is recovering from a stun, then add Stunned to the hover text on mouse over.
-stunInformation=false
+> If the tamed creature is recovering from a stun, then add Stunned to the hover text on mouse over.
+> stunInformation=false
 
-[GameClock]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#GameClock
-enabled=false
-
-; Change time formatting from 24hr to AM-PM.
-useAMPM=false
-
-; Change font size of time text. 
-textFontSize=34
-
-; Change how red the time text is (51/255).
-textRedChannel=248
-
-; Change how green the time text is (51/255).
-textGreenChannel=105
-
-; Change how blue the time text is (51/255).
-textBlueChannel=0
-
-; Change how transparent the time text is (255 is solid with no transparency).
-textTransparencyChannel=255
+## [GameClock]
+ * [AzuClock](https://valheim.thunderstore.io/package/Azumatt/AzuClock/)
+ * [AlweStats](https://valheim.thunderstore.io/package/Padank/AlweStats/)
+ * [ClockMod](https://valheim.thunderstore.io/package/RagnarokHCRP/Clock/) <em>Any variation of it from aedenthorn. Recommended to get the latest from her nexus page if you want to use her version. Do not get re-uploads as they get outdated quickly</em>
 
 
-[Brightness]
+> ## [Brightness] UNKNOWN
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Brightness
-enabled=false
-
-; Changes how bright it looks at night. A value between 5 and 10 will result in nearly double in brightness at night. 
+> Changes how bright it looks at night. A value between 5 and 10 will result in nearly double in brightness at night. 
 nightBrightnessMultiplier=0
 
-[Chat]
+> ## [Chat] UNKNOWN
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Chat
+> Change false to true to enable this section. https://valheim.plus/documentation/list#Chat
 enabled = false
 
-; If the player is outside of this range in meters in comparison to the creator of the shout you will not see the message on the map or in the chat. If this is set to 0, its disabled.
-shoutDistance = 0
+> If the player is outside of this range in meters in comparison to the creator of the shout you will not see the message on the map or in the chat. If this is set to 0, its disabled.
+> shoutDistance = 0
 
-; With this option enabled you will see the shout message in your chat window even if you are outside of shoutDistance.
+> With this option enabled you will see the shout message in your chat window even if you are outside of shoutDistance.
 outOfRangeShoutsDisplayInChatWindow = true
 
-; If the player is outside of this range in meters in comparison to the creator of the ping on the map you will not see the ping on the map. If this is set to 0, its disabled.
-pingDistance = 0
+> If the player is outside of this range in meters in comparison to the creator of the ping on the map you will not see the ping on the map. If this is set to 0, its disabled.
+> pingDistance = 0
 
-; Disable the forced upper and lower case conversions for in-game text messages of all types.
-forcedCase = true
+> Disable the forced upper and lower case conversions for in-game text messages of all types.
+> forcedCase = true
 
-; This value determines the range in meters that you can see whisper text messages by default.
-defaultWhisperDistance = 4
+> This value determines the range in meters that you can see whisper text messages by default.
+> defaultWhisperDistance = 4
 
-; This value determines the range in meters that you can see normal text messages by default.
-defaultNormalDistance = 15
+> This value determines the range in meters that you can see normal text messages by default.
+> defaultNormalDistance = 15
 
-; This value determines the range in meters that you can see shout text messages by default.
-defaultShoutDistance = 70
+> This value determines the range in meters that you can see shout text messages by default.
+> defaultShoutDistance = 70
