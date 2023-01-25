@@ -9,6 +9,10 @@
 
 
 ## [AdvancedBuildingMode]
+* 90% or more of these sections can be replaced with the following 2 mods
+  * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
+  * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
+  
 ## [AdvancedEditingMode]
 
 * 90% or more of these sections can be replaced with the following 2 mods
