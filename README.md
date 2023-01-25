@@ -291,58 +291,11 @@ changeDefaultAlignment=F6
  * [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/)
  * [CraftFromContainers](https://valheim.thunderstore.io/package/aedenthorn_mods/CraftFromContainers/) <em>Any variation of it from aedenthorn. Recommended to get the latest listed here though</em>
 
-[Windmill]
+## [Windmill]
+ * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Windmill
-enabled=false
-
-; Maximum amount of barley in a windmill.
-maximumBarley=50
-
-; The time it takes for the windmill to produce a single ingot in seconds.
-productionSpeed=10
-
-; Ignore wind intensity so it always takes the production speed value to process one barley.
-ignoreWindIntensity=false
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; The Windmill will pull barley from nearby chests to be automatically added to it when its empty.
-autoFuel=false
-
-; This option prevents the Windmill to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto deposit and auto fuel features. 
-; Maximum is 50
-autoRange=10
-
-[SpinningWheel]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#SpinningWheel
-enabled=false
-
-; Maximum amount of flax in a spinning wheel.
-maximumFlax=50
-
-; The time it takes for the spinning wheel to produce linen thread.
-productionSpeed=30
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; The Spinning Wheel will pull flax from nearby chests to be automatically added to it when its empty.
-autoFuel=false
-
-; This option prevents the Spinning Wheel to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto deposit and auto fuel features 
-; Maximum is 50
-autoRange=10
+## [SpinningWheel]
+* [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
 
 
 > ## [PlayerProjectile]  UNKNOWN
