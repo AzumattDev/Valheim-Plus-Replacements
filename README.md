@@ -19,338 +19,91 @@ Curated list of replacement mods for Valheim Plus.
 
 Likely can be replaced by [Sleepover](https://valheim.thunderstore.io/package/kinghfb/Sleepover/)
 
-[Beehive]
+## [Beehive]
+
+Can currently be replaced by [BeehiveUtils Revived](https://valheim.thunderstore.io/package/JustMennowar/BeehiveUtils_Revived/) 
+
+## [Building]
+
+A few mods are needed to replace this section. I will break them down by the options in the config and which mods can do that feature.
+### noInvalidPlacementRestriction <b>Please note, this is considered to be a cheat for the most part and is usually in cheat mods or admin mods</b>
+  * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+  * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+  * [QualityOfLife](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+  * [Valheim Tooler](https://valheim.thunderstore.io/package/Astropilot/ValheimTooler/)
+### noWeatherDamage
+ * [AzuWearNTearPatches](https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/)
+### maximumPlacementDistance
+ * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
+### pieceComfortRadius
+ * [ComfortTweaks](https://valheim.thunderstore.io/package/Smoothbrain/ComfortTweaks/)
+### areaRepairRadius
+ * [AzuAreaRepair](https://valheim.thunderstore.io/package/Azumatt/AzuAreaRepair/)
+ 
+
+## [Camera]
+* [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
+
+* [Customizable_Camera](https://valheim.thunderstore.io/package/NotMyMods/Customizable_Camera/)
+
+## [Experience]
+* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+* [AzuSkillTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuSkillTweaks/)
+
+## [Fermenter]
+
+
+## [FireSource]
+<em>Please look through the mods depending on what you want to accomplish. Not all of them work the same.</em>
+* [BetterWards](https://valheim.thunderstore.io/package/Azumatt/BetterWards/) <em>Only applies inside ward radius</em>
+* [WardIsLove]() <em>Only applies inside ward radius</em>
+* [TorchesEternal]()
+* [TimedTorchestStayLit](https://valheim.thunderstore.io/package/TastyChickenLeg/TimedTorchesStayLit/)
+* [NoSmokeStayLit](https://valheim.thunderstore.io/package/TastyChickenLeg/NoSmokeStayLit/)
+* [FuelEternal](https://valheim.thunderstore.io/package/Marf/FuelEternal/)
+* [InfiniteTorches](https://valheim.thunderstore.io/package/Frogger/InfiniteTorches/)
+* [TorchesEternal](https://valheim.thunderstore.io/package/Xenofell/TorchesEternal/) <em>This mod is old, but might still work as well</em>
+
+## [Food]
+* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+* [FoodDurationMultiplier](https://valheim.thunderstore.io/package/blacks7ar/FoodDurationMultiplier/)
+
+## [Smelter]
+## [Furnace]
+
+* [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Beehive
-enabled=false
-
-; Configure the speed at which the bees produce honey in seconds, 1200 seconds are 24 ingame hours.
-honeyProductionSpeed=1200
-
-; Configure the maximum amount of honey in beehives.
-maximumHoneyPerBeehive=4
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; The range of the chest detection for the auto deposit feature. 
-; Maximum is 50
-autoDepositRange=10
-
-; Display the minutes and seconds until the beehive produces honey on crosshair hover.
-showDuration=false
-
-[Building]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Building
-enabled=false
-
-; Remove some of the Invalid placement messages, most notably provides the ability to place objects into other objects
-noInvalidPlacementRestriction=false
-
-; Removes the "Mystical forces" building prevention and allows destruction of build objects in those areas with the hammer.
-noMysticalForcesPreventPlacementRestriction=false
-
-; Removes the weather damage from rain and water erosion.
-noWeatherDamage=false
-
-; The maximum range in meters that you can place build objects at inside the hammer build mode.
-maximumPlacementDistance=8
-
-; The radius, in meters, in which a piece must be to contribute to the comfort level.
-pieceComfortRadius=10
-
-; When destroying a building piece, setting this to true will ensure it always drops full resources.
-; We recommend to enable this if you use this section.
-alwaysDropResources=false
-
-; When destroying a building piece, setting this to true will ensure it always drops pieces that the devs have marked as "do not drop".
-; We recommend to enable this if you use this section.
-alwaysDropExcludedResources=false
-
-; Setting this to true will cause repairing with the hammer to repair in a radius instead of a single piece.
-enableAreaRepair=false
-
-; Sets the area repair radius of enableAreaRepair. A value of 7.5 would mean your repair radius is 7.5 meters. 
-; Requires enableAreaRepair=true
-areaRepairRadius=7.5
-
-[Camera]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Camera
-enabled=false
-
-; The maximum zoom distance to your character in-game.
-; Default is 6
-cameraMaximumZoomDistance=6
-
-; The maximum zoom distance to your character when in a boat.
-; Default is 6
-cameraBoatMaximumZoomDistance=6
-
-; The in-game camera FOV.
-; Default is 65
-cameraFOV=65
-
-[Experience]
-
-; Change false to true to enable this section. This section contains modifiers. https://valheim.plus/documentation/list#Experience
-; Modifiers are increases and reduction in percent declared by 50, or -50. The value 50 will increase experience gained by 50%, -50 will reduce experience gained by 50%.
-enabled=false
-
-; The modifier value for the experience gained of swords.
-swords=0
-
-; The modifier value for the experience gained of knives.
-knives=0
-
-; The modifier value for the experience gained of clubs.
-clubs=0
-
-; The modifier value for the experience gained of polearms.
-polearms=0
-
-; The modifier value for the experience gained of spears.
-spears=0
-
-; The modifier value for the experience gained of blocking.
-blocking=0
-
-; The modifier value for the experience gained of axes.
-axes=0
-
-; The modifier value for the experience gained of bows.
-bows=0
-
-; The modifier value for the experience gained of fire magic.
-fireMagic=0
-
-; The modifier value for the experience gained of frost magic.
-frostMagic=0
-
-; The modifier value for the experience gained of unarmed.
-unarmed=0
-
-; The modifier value for the experience gained of mining.
-pickaxes=0
-
-; The modifier value for the experience gained of wood cutting.
-woodCutting=0
-
-; The modifier value for the experience gained of jumping.
-jump=0
-
-; The modifier value for the experience gained of sneaking.
-sneak=0
-
-; The modifier value for the experience gained of running.
-run=0
-
-; The modifier value for the experience gained of swimming.
-swim=0
-
-; The modifier value for the experience gained of riding.
-ride=0
-
-[Fermenter]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Fermenter
-enabled=false
-
-; Configure the time that the fermenter takes to produce its product, 2400 seconds are 48 ingame hours.
-fermenterDuration=2400
-
-; Configure the total amount of produced items from a fermenter.
-fermenterItemsProduced=6
-
-; Display the minutes and seconds until the fermenter is done on crosshair hover.
-showDuration=false
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; Automatically pull meads from nearby chests to be placed inside the Fermenter as soon as its empty.
-autoFuel=false
-
-; This option prevents the fermenter to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto deposit and auto fuel features 
-; Maximum is 50
-autoRange=10
-
-[FireSource]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#FireSource
-enabled=false
-
-; If set to true, torch-type fire sources will stay at max fuel level once filled. 
-; Applies to: wood torches, iron torches, green torches, sconces and brazier.
-torches=false
-
-; If set to true, non torch-type fire sources will stay at max fuel level once filled.
-fires=false
-
-; Automatically pull wood from nearby chests to be placed inside the Fire as soon as its empty.
-autoFuel=false
-
-; This option prevents the Fire to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto fuel features. 
-; Maximum is 50
-autoRange=10
-
-[Food]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Food
-enabled=false
-
-; Increase or reduce the time that food lasts by %. 
-; The value 50 would cause food to run out 50% slower, -50% would cause the food to run out 50% faster.
-foodDurationMultiplier=0
-
-; This option prevents food degrading over time - in other words, it retains its maximum benefit until it runs out instead of reducing its effect over time.
-disableFoodDegradation=false
-
-[Smelter]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Smelter
-enabled=false
-
-; Maximum amount of ore in a Smelter.
-maximumOre=10
-
-; Maximum amount of coal in a Smelter.
-maximumCoal=20
-
-; The total amount of coal used to produce a single smelted ingot.
-coalUsedPerProduct=2
-
-; The time it takes for the Smelter to produce a single ingot in seconds.
-productionSpeed=30
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; The Smelter will pull coal and raw materials from nearby chests to be automatically added to it when its empty.
-autoFuel=false
-
-; This option prevents the Smelter to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto deposit and auto fuel features. 
-; Maximum is 50
-autoRange=10
-
-[Furnace]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Furnace
-enabled=false
-
-; Maximum amount of ore in a Furnace.
-maximumOre=10
-
-; Maximum amount of coal in a Furnace.
-maximumCoal=20
-
-; The total amount of coal used to produce a single smelted ingot.
-coalUsedPerProduct=2
-
-; The time it takes for the Furnace to produce a single ingot in seconds.
-productionSpeed=30
-
-; Instead of dropping the items, they will be placed inside the nearest nearby chests.
-autoDeposit=false
-
-; The Furnace will pull coal and raw materials from nearby chests to be automatically added to it when its empty.
-autoFuel=false
-
-; This option prevents the Furnace to pull items from warded areas if it isn't placed inside of it.
-; For convenience, we recommend this to be set to true.
-ignorePrivateAreaCheck=true
-
-; The range of the chest detection for the auto deposit and auto fuel features. 
-; Maximum is 50
-autoRange=10
-
-; This option allows all ores inside the Furnace.
-allowAllOres=false
 
 [Game]
 
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Game
-enabled=false
+### gameDifficultyDamageScale, gameDifficultyHealthScale, extraPlayerCountNearby, setFixedPlayerCountTo, difficultyScaleRange
+ * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
 
-; The games damage multiplier per person nearby in difficultyScaleRange(m) radius.
-; Default is 4% monster damage increase per player in radius.
-gameDifficultyDamageScale=4
+### disablePortals
 
-; The games health multiplier per person nearby in difficultyScaleRange(m) radius.
-; Default is 30% monster health increase per player in radius.
-gameDifficultyHealthScale=30
 
-; Adds additional players to the difficulty calculation in multiplayer unrelated to the actual amount.
-; This option is disabled if its set to 0.
-extraPlayerCountNearby=0
+### bigPortalNames
+ * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 
-; Sets the nearby player count always to this value + extraPlayerCountNearby.
-; This option is disabled if its set to 0.
-setFixedPlayerCountTo=0
+### disableFog
+ * <em>Maybe this works still?</em> [FogDisabler](https://valheim.thunderstore.io/package/nexus2thunderstore/FogDisabler/)
 
-; The range in meters at which other players count towards nearby players for the difficulty scale.
-difficultyScaleRange=200
+## [Hotkeys]
+ * [Shortcuts](https://valheim.thunderstore.io/package/ComfyMods/Shortcuts/)
+ 
+## [Items]
 
-; If you set this to true, all portals will be disabled.
-disablePortals=false
-
-; If you set this to true the console will be force disabled in-game.
-disableConsole=false
-
-;If you set this to true, portal names will be displayed in big text in center of screen.
-bigPortalNames=false
-
-;Remove dense fog from the game.
-disableFog=false
-
-[Hotkeys]
-
-; https://docs.unity3d.com/ScriptReference/KeyCode.html <- a list of keycodes
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Hotkeys
-enabled=false
-
-; Roll forwards on hot key pressed.
-rollForwards=F9
-
-; Roll backwards on hot key pressed.
-rollBackwards=F10
-
-[Items]
-
-; Change false to true to enable this section. https://valheim.plus/documentation/list#Items
-enabled=false
-
-; Enables you to teleport with ores and other usually teleport restricted objects.
-noTeleportPrevention=false
-
-; Increase or reduce item weight by a modifier in percent. 
-; The value -50 will reduce item weight of every object by 50%, 50 will increase the weight of every item by 50%.
-baseItemWeightReduction=0
-
-; Increase or reduce the size of all maximum item stacks by a modifier in percent. 
-; The value 50 would set a usual item stack of 100 to be 150.
-; The value -50 would set a usual item stack of 100 to be 50.
-itemStackMultiplier=0
-
+### noTeleportPrevention, baseItemWeightReduction, itemStackMultiplier
+ * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
 ; Set duration that dropped items stay on the ground before they are despawning. Game default is 3600 seconds.
-droppedItemOnGroundDurationInSeconds=3600
 
-; Items dropped always float in water.
-itemsFloatInWater=false
+### droppedItemOnGroundDurationInSeconds
+ * [TimedItemDestruction](https://valheim.thunderstore.io/package/Smoothbrain/TimedItemDestruction/)
 
+### itemsFloatInWater
+ * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
+ * [FloatingItems](https://valheim.thunderstore.io/package/castix/FloatingItems/)
+ 
 [Hud]
 
 ; Change false to true to enable this section. https://valheim.plus/documentation/list#HUD
