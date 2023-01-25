@@ -1,6 +1,7 @@
 # Valheim-Plus-Replacements
-<h1>Curated list of replacement mods for Valheim Plus.</h1>
+## Curated list of replacement mods for Valheim Plus.
 
+---
 
 ## [ValheimPlus]
 
@@ -30,7 +31,9 @@ Can currently be replaced by [BeehiveUtils Revived](https://valheim.thunderstore
 ## [Building]
 
 A few mods are needed to replace this section. I will break them down by the options in the config and which mods can do that feature.
-### noInvalidPlacementRestriction <b>Please note, this is considered to be a cheat for the most part and is usually in cheat mods or admin mods</b>
+### noInvalidPlacementRestriction 
+
+<em><b>Please note, this is considered to be a cheat for the most part and is usually in cheat mods or admin mods</b></em>
   * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
   * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
   * [QualityOfLife](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
@@ -83,8 +86,10 @@ A few mods are needed to replace this section. I will break them down by the opt
 
 ## [Game]
 
-### gameDifficultyDamageScale, gameDifficultyHealthScale, extraPlayerCountNearby, setFixedPlayerCountTo, difficultyScaleRange
- * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
+_Settings are broken out below for the mods that can cover the features_
+
+* ### gameDifficultyDamageScale, gameDifficultyHealthScale, extraPlayerCountNearby, setFixedPlayerCountTo, difficultyScaleRange
+  * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
 
 ### disablePortals
  * [World_Advancement_Progression](https://valheim.thunderstore.io/package/VentureValheim/World_Advancement_Progression/)
@@ -126,12 +131,13 @@ A few mods are needed to replace this section. I will break them down by the opt
 * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
 
 ## [Durability]
+  * [Durability Tweaks](https://valheim.thunderstore.io/package/OdinPlus/Durability_Tweaks/)
 ## [Armor]
  * [Durability Tweaks](https://valheim.thunderstore.io/package/OdinPlus/Durability_Tweaks/)
 
 
 ## [Kiln]
- * [Automatics]()
+ * [Automatics](https://valheim.thunderstore.io/package/eideehi/Automatics/)
  * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
  * [AutomaticFuel](https://valheim.thunderstore.io/package/TastyChickenLeg/AutomaticFuel/)
 
