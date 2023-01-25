@@ -87,6 +87,7 @@ A few mods are needed to replace this section. I will break them down by the opt
  * [Creature Level & Loot Control (a.k.a CLLC)](https://valheim.thunderstore.io/package/Smoothbrain/CreatureLevelAndLootControl/)
 
 ### disablePortals
+ * [World_Advancement_Progression](https://valheim.thunderstore.io/package/VentureValheim/World_Advancement_Progression/)
 
 
 ### bigPortalNames
