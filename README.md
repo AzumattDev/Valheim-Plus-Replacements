@@ -128,7 +128,7 @@ A few mods are needed to replace this section. I will break them down by the opt
  * [AutomaticFuel](https://valheim.thunderstore.io/package/TastyChickenLeg/AutomaticFuel/)
 
 
-[Map]
+## [Map]
 
 <em>The In-game cartography table does most of this now</em>
 
@@ -206,7 +206,7 @@ You can replace some of the features with
 ### autoPickUpWhenEncumbered
  * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
 
-### [Server]
+## [Server]
 
 
 ### maxPlayers
