@@ -67,8 +67,11 @@ A few mods are needed to replace this section. I will break them down by the opt
 ## [Food]
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [FoodDurationMultiplier](https://valheim.thunderstore.io/package/blacks7ar/FoodDurationMultiplier/)
+* [FoodCustomizer](https://valheim.thunderstore.io/package/Smoothbrain/FoodCustomizer/)
 
 ## [Smelter]
+* [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
+
 ## [Furnace]
 
 * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
@@ -149,7 +152,8 @@ You can replace some of the features with
  * [PlantEverything](https://valheim.thunderstore.io/package/Advize/PlantEverything/)
  * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/) <em>Please note, as of Mistlands patch this has some issues PreventPlantTooClose option might not work correctly with Mistlands plants</em>
 
-> UNKNOWN ## How many seconds each comfort level contributes to the rested bonus.  restSecondsPerComfortLevel=60
+### restSecondsPerComfortLevel
+ * [ComfortTweaks](https://valheim.thunderstore.io/package/Smoothbrain/ComfortTweaks/)
 
 ### deathPenaltyMultiplier
  * [ServerSyncDeathTweaks](https://valheim.thunderstore.io/package/OdinPlus/ServerSyncDeathTweaks/)
