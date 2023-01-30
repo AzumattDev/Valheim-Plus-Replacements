@@ -356,20 +356,9 @@ You can replace some of the features with
 
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
-> ## [GridAlignment] REPLACEMENT UNKNOWN
+ ## [GridAlignment]
 
-> Change false to true to enable this section. https://valheim.plus/documentation/list#GridAlignment
-> This offers a global fixed grid system to make precise placements.
-> enabled=false
-
-> Key to enable grid alignment.
-> align=LeftAlt
-
-> Key to toggle grid alignment.
-> alignToggle=F7
-
-> Key to change the default alignment.
-> changeDefaultAlignment=F6
+* [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
 
 ## [CraftFromChest]
 
