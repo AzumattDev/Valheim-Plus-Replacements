@@ -40,6 +40,7 @@ that feature.
 <em><b>Please note, this is considered to be a cheat for the most part and is usually in cheat mods or admin
 mods</b></em>
 
+* [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
 * [QualityOfLife](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
@@ -83,8 +84,8 @@ mods</b></em>
 <em>Please look through the mods depending on what you want to accomplish. Not all of them work the same.</em>
 
 * [BetterWards](https://valheim.thunderstore.io/package/Azumatt/BetterWards/) <em>Only applies inside ward radius</em>
-* [WardIsLove]() <em>Only applies inside ward radius</em>
-* [TorchesEternal]()
+* [WardIsLove](https://valheim.thunderstore.io/package/Azumatt/WardIsLove/) <em>Only applies inside ward radius</em>
+* [TorchesEternal](https://valheim.thunderstore.io/package/Xenofell/TorchesEternal/)
 * [TimedTorchestStayLit](https://valheim.thunderstore.io/package/TastyChickenLeg/TimedTorchesStayLit/)
 * [NoSmokeStayLit](https://valheim.thunderstore.io/package/TastyChickenLeg/NoSmokeStayLit/)
 * [FuelEternal](https://valheim.thunderstore.io/package/Marf/FuelEternal/)
@@ -94,7 +95,7 @@ mods</b></em>
 
 ## [Food]
 
-* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
+* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/) <em>This mod will be deprecated soon, it's recommended to use one of the two listed below</em>
 * [FoodDurationMultiplier](https://valheim.thunderstore.io/package/blacks7ar/FoodDurationMultiplier/)
 * [FoodCustomizer](https://valheim.thunderstore.io/package/Smoothbrain/FoodCustomizer/)
 
@@ -148,6 +149,7 @@ _Settings are broken out below for the mods that can cover the features_
 
 ## [Hud]
 
+* [MinimalUI](https://valheim.thunderstore.io/package/Azumatt/Minimal_UI/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [BetterUI_Reforged](https://valheim.thunderstore.io/package/thedefside/BetterUI_Reforged/)
 * [Improved Build Hud](https://valheim.thunderstore.io/package/RandyKnapp/ImprovedBuildHud/)
@@ -190,8 +192,8 @@ You can replace some of the features with
 
 ### baseMaximumWeight, baseMegingjordBuff, baseAutoPickUpRange
 
-* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
+* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 
 ### cropNotifier
 
@@ -211,7 +213,7 @@ You can replace some of the features with
 
 ### autoRepair
 
-* [AzuWorkbenchInventoryRepair](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbench_Inventory_Repair/)
+* [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 
 > [REPLACEMENT UNKNOWN] Boss buff duration (seconds) (guardianBuffDuration)
 
@@ -222,6 +224,7 @@ You can replace some of the features with
 
 ### autoEquipShield, autoUnequipShield
 
+* [SheildMeBruh](https://valheim.thunderstore.io/package/Vapok/ShieldMeBruh/) <em>This one is recommended to be used over the other one listed</em>
 * [Shield_Auto_Equip](https://valheim.thunderstore.io/package/Zinal001/Shield_Auto_Equip/)
 
 > REPLACEMENT UNKNOWN ## If set to true, weapon switches requested mid-attack will be carried out when the current
@@ -229,6 +232,7 @@ You can replace some of the features with
 
 ### skipIntro
 
+* [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 * [Skip_The_Valkyrie_Flying_Intro](https://valheim.thunderstore.io/package/By_FioteBearDev_reuploaded/Skip_The_Valkyrie_Flying_Intro/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
@@ -236,6 +240,7 @@ You can replace some of the features with
 
 ### iHaveArrivedOnSpawn
 
+* [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
@@ -254,8 +259,8 @@ You can replace some of the features with
 
 ### skipTutorials
 
+* [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 * [Server_Devcommands](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
-* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
 
 ### disableEncumbered
@@ -271,7 +276,6 @@ You can replace some of the features with
 ### maxPlayers
 
 * [MaxPlayerCount](https://valheim.thunderstore.io/package/Azumatt/MaxPlayerCount/)
-* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
 
 ### disableServerPassword
@@ -290,8 +294,8 @@ You can replace some of the features with
 
 [StructuralIntegrity]
 
-* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [AzuWearNTearPatches](https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/)
+* [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 
 ## [Ward]
 
@@ -300,9 +304,8 @@ You can replace some of the features with
 
 ## [Workbench]
 
+* [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
-* [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
-* [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 
 > REPLACEMENT UNKNOWN ## [Wagon]
 
@@ -319,10 +322,11 @@ You can replace some of the features with
 
 ## [Inventory]
 
+* [AzuExtendedPlayerInventory](https://valheim.thunderstore.io/package/Azumatt/AzuExtendedPlayerInventory/) <em>This is recommended over other variations of ExtendedPlayerInventory. This one comes with fixes to ensure you won't have a bugged inventory</em>
+* [OdinsExtendedInventory](https://valheim.thunderstore.io/package/OdinPlus/OdinsExtendedInventory/) <em>Or literally
+    any variation of it can replace most things from this section</em>
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/) <em>Has ExtendedInventory section already in
   it.</em>
-* [OdinsExtendedInventory](https://valheim.thunderstore.io/package/OdinPlus/OdinsExtendedInventory/) <em>Or literally
-  any variation of it can replace most things from this section</em>
 * [AzuContainerSizes](https://valheim.thunderstore.io/package/Azumatt/AzuContainerSizes/)
 
 ## [FreePlacementRotation]
@@ -362,9 +366,9 @@ You can replace some of the features with
 
 ## [CraftFromChest]
 
-* [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/)
 * [CraftFromContainers](https://valheim.thunderstore.io/package/aedenthorn_mods/CraftFromContainers/) <em>Any variation
   of it from aedenthorn. Recommended to get the latest listed here though</em>
+* [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/)
 
 ## [Windmill]
 
