@@ -12,21 +12,21 @@
 
 ## [AdvancedBuildingMode]
 
-* 100% of this section can be replaced with the following mod
-    * [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
-
 * 90% or more of these sections can be replaced with the following 2 mods
     * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
     * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
+
+* 100% of this section can be replaced with the following mod
+    * [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
 
 ## [AdvancedEditingMode]
 
-* 100% of this section can be replaced with the following mod
-    * [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
-
 * 90% or more of these sections can be replaced with the following 2 mods
     * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
     * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
+
+* 100% of this section can be replaced with the following mod
+    * [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
 
 ## [Bed]
 
@@ -338,7 +338,6 @@ You can replace some of the features with
 
 ## [FreePlacementRotation]
 
-* [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
 * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
     * Requires installing either [Comfy Gizmo](https://github.com/redseiko/ValheimMods/releases/latest)
       or [Gizmo Reloaded](https://valheim.thunderstore.io/package/Tyrenheim/M3TO_Gizmo_Reloaded/). Check their
@@ -358,6 +357,9 @@ You can replace some of the features with
             * hammer_rotate_z [number]*random
     * For example 3*random would randomly rotate 0, 120 or 240 degrees.
 * [Gizmo (ComfyMods version)](https://valheim.thunderstore.io/package/ComfyMods/Gizmo/)
+
+* 100% of this section can be replaced with the following mod
+    * [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
 
 > ## [Shields] REPLACEMENT UNKNOWN
 > Increase or decrease the block value on all shields in %. -50 would be 50% less block rating, 50 would be 50% more
