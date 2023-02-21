@@ -49,7 +49,7 @@ mods</b></em>
 
 * [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
-* [QualityOfLife](https://valheim.thunderstore.io/package/JereKuusela/Server_devcommands/)
+* [QualityOfLife](https://valheim.thunderstore.io/package/QoLTeam/QualityOfLife/)
 * [Valheim Tooler](https://valheim.thunderstore.io/package/Astropilot/ValheimTooler/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 
@@ -288,7 +288,6 @@ You can replace some of the features with
 ### disableServerPassword
 
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
-* [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
 
 ## [Stamina]
 
