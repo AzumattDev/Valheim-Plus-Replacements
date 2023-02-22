@@ -313,18 +313,9 @@ You can replace some of the features with
 * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 
-> REPLACEMENT UNKNOWN ## [Wagon]
+## [Wagon]
 
-> Change false to true to enable this section. https://valheim.plus/documentation/list#Wagon
-> enabled=false
-
-> Change the base wagon physical mass of the wagon object.
-> This is essentially the base weight of a cart.
-> wagonBaseMass=20
-
-> This value changes the physical weight of wagons by +/- more/less from item weight inside.
-> The value 50 would increase the weight by 50% more. The value -100 would remove the entire extra weight.
-> wagonExtraMassFromItems=0
+* [HaulersHelper](https://valheim.thunderstore.io/package/Azumatt/HaulersHelper/)
 
 ## [Inventory]
 
