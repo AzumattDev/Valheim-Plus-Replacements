@@ -222,12 +222,12 @@ You can replace some of the features with
 
 * [AzuWorkbenchTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuWorkbenchTweaks/)
 
-> [REPLACEMENT UNKNOWN] Boss buff duration (seconds) (guardianBuffDuration)
+### Boss buff duration (seconds) (guardianBuffDuration)
 
-> Boss buff cooldown (seconds)
-> guardianBuffCooldown=1200
+[PassivePowers](https://valheim.thunderstore.io/package/Smoothbrain/PassivePowers/)
 
-> REPLACEMENT UNKNOWN ## Disable the Guardian Buff animation (disableGuardianBuffAnimation)
+### Disable the Guardian Buff animation (disableGuardianBuffAnimation)
+* [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 
 ### autoEquipShield, autoUnequipShield
 
