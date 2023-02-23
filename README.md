@@ -427,10 +427,8 @@ You can replace some of the features with
   Recommended to get the latest from her nexus page if you want to use her version. Do not get re-uploads as they get
   outdated quickly</em>
 
-> ## [Brightness] REPLACEMENT UNKNOWN
-
-> Changes how bright it looks at night. A value between 5 and 10 will result in nearly double in brightness at night.
-> nightBrightnessMultiplier=0
+## [Brightness]
+* [NightLight](https://valheim.thunderstore.io/package/Azumatt/NightLight/)
 
 > ## [Chat] REPLACEMENT UNKNOWN
 
