@@ -66,6 +66,12 @@ mods</b></em>
 
 * [ComfortTweaks](https://valheim.thunderstore.io/package/Smoothbrain/ComfortTweaks/)
 
+### alwaysDropResources
+* [ProfitablePieces](https://valheim.thunderstore.io/package/Azumatt/ProfitablePieces/)
+
+### alwaysDropExcludedResources
+* [ProfitablePieces](https://valheim.thunderstore.io/package/Azumatt/ProfitablePieces/)
+
 ### areaRepairRadius
 
 * [AzuAreaRepair](https://valheim.thunderstore.io/package/Azumatt/AzuAreaRepair/)
