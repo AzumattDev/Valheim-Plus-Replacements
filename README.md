@@ -130,9 +130,8 @@ _Settings are broken out below for the mods that can cover the features_
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 
 ### disableFog
-
-* <em>Maybe this works
-  still?</em> [FogDisabler](https://valheim.thunderstore.io/package/nexus2thunderstore/FogDisabler/)
+* <em>Recommended Option</em> [NoFogBruh!](https://valheim.thunderstore.io/package/Vapok/NoFogBruh/)
+* <em>Maybe this works still?</em> [FogDisabler](https://valheim.thunderstore.io/package/nexus2thunderstore/FogDisabler/)
 
 ## [Hotkeys]
 
