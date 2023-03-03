@@ -367,6 +367,7 @@ You can replace some of the features with
 
  ## [GridAlignment]
 
+* [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
 * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
 
 ## [CraftFromChest]
