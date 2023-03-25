@@ -98,9 +98,7 @@ mods</b></em>
 
 * [BetterWards](https://valheim.thunderstore.io/package/Azumatt/BetterWards/) <em>Only applies inside ward radius</em>
 * [WardIsLove](https://valheim.thunderstore.io/package/Azumatt/WardIsLove/) <em>Only applies inside ward radius</em>
-* [TorchesEternal](https://valheim.thunderstore.io/package/Xenofell/TorchesEternal/)
-* [TimedTorchestStayLit](https://valheim.thunderstore.io/package/TastyChickenLeg/TimedTorchesStayLit/)
-* [NoSmokeStayLit](https://valheim.thunderstore.io/package/TastyChickenLeg/NoSmokeStayLit/)
+* [NoSmokeStayLit](https://valheim.thunderstore.io/package/TastyChickenLegs/NoSmokeStayLit/)
 * [FuelEternal](https://valheim.thunderstore.io/package/Marf/FuelEternal/)
 * [InfiniteTorches](https://valheim.thunderstore.io/package/Frogger/InfiniteTorches/)
 * [TorchesEternal](https://valheim.thunderstore.io/package/Xenofell/TorchesEternal/) <em>This mod is old, but might
