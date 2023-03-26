@@ -237,8 +237,8 @@ You can replace some of the features with
 * [SheildMeBruh](https://valheim.thunderstore.io/package/Vapok/ShieldMeBruh/) <em>This one is recommended to be used over the other one listed</em>
 * [Shield_Auto_Equip](https://valheim.thunderstore.io/package/Zinal001/Shield_Auto_Equip/)
 
-> REPLACEMENT UNKNOWN ## If set to true, weapon switches requested mid-attack will be carried out when the current
-> attack is finished instead of being ignored. (queueWeaponChanges)
+### queueWeaponChanges
+* [Queue_Me_Maybe](https://valheim.thunderstore.io/package/Azumatt/Queue_Me_Maybe/)
 
 ### skipIntro
 
