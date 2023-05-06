@@ -197,6 +197,9 @@ You can replace some of the features with
 
 * [OdinsQOL](https://valheim.thunderstore.io/package/OdinPlus/OdinsQOL/)
 * [AzuMapDetails](https://valheim.thunderstore.io/package/Azumatt/AzuMapDetails/)
+* [ServerSideMaps](https://valheim.thunderstore.io/package/Mydayyy/ServerSideMap/)
+* [BiggerMinimapDiscoveryRadius
+](https://valheim.thunderstore.io/package/FXCK_U2/BiggerMinimapDiscoveryRadius/)
 
 ## [Player]
 
