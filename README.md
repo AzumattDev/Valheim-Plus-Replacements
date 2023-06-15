@@ -303,7 +303,7 @@ You can replace some of the features with
 
 * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
 
-[StructuralIntegrity]
+## [StructuralIntegrity]
 
 * [AzuWearNTearPatches](https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/)
 
@@ -418,7 +418,7 @@ You can replace some of the features with
 > monsterMaxChargeAccuracyMultiplier=0
 
 
-> ## [Tameable]
+## [Tameable]
 
 * [Pet Protection](https://valheim.thunderstore.io/package/zebediah49/Pet_Protection/)
 
