@@ -51,7 +51,6 @@ mods</b></em>
 * [QualityOfLife](https://valheim.thunderstore.io/package/QoLTeam/QualityOfLife/)
 * [Valheim Tooler](https://valheim.thunderstore.io/package/Astropilot/ValheimTooler/)
 
-
 ### noWeatherDamage
 
 * [AzuWearNTearPatches](https://valheim.thunderstore.io/package/Azumatt/AzuWearNTearPatches/)
@@ -66,9 +65,11 @@ mods</b></em>
 * [ComfortTweaks](https://valheim.thunderstore.io/package/Smoothbrain/ComfortTweaks/)
 
 ### alwaysDropResources
+
 * [ProfitablePieces](https://valheim.thunderstore.io/package/Azumatt/ProfitablePieces/)
 
 ### alwaysDropExcludedResources
+
 * [ProfitablePieces](https://valheim.thunderstore.io/package/Azumatt/ProfitablePieces/)
 
 ### areaRepairRadius
@@ -82,7 +83,6 @@ mods</b></em>
 * [Customizable_Camera](https://valheim.thunderstore.io/package/NotMyMods/Customizable_Camera/)
 
 ## [Experience]
-
 
 * [AzuSkillTweaks](https://valheim.thunderstore.io/package/Azumatt/AzuSkillTweaks/)
 
@@ -133,8 +133,10 @@ _Settings are broken out below for the mods that can cover the features_
   needed.
 
 ### disableFog
+
 * <em>Recommended Option</em> [NoFogBruh!](https://valheim.thunderstore.io/package/Vapok/NoFogBruh/)
-* <em>Maybe this works still?</em> [FogDisabler](https://valheim.thunderstore.io/package/nexus2thunderstore/FogDisabler/)
+* <em>Maybe this works
+  still?</em> [FogDisabler](https://valheim.thunderstore.io/package/nexus2thunderstore/FogDisabler/)
 
 ## [Hotkeys]
 
@@ -188,6 +190,7 @@ _Settings are broken out below for the mods that can cover the features_
 ## [Map]
 
 ### shareMapProgression, shareAllPins
+
 <em>The In-game cartography table does most of this now</em>
 
 You can replace some of the features with
@@ -195,13 +198,16 @@ You can replace some of the features with
 <em>Beware, displaying boats and carts as well as player built buildings is resource heavy!</em>
 
 ### displayCartsAndBoats
+
 * [AzuMapDetails](https://valheim.thunderstore.io/package/Azumatt/AzuMapDetails/)
 
 ### preventPlayerFromTurningOffPublicPosition
+
 * [WhereYouAt](https://valheim.thunderstore.io/package/Azumatt/WhereYouAt/)
 * [Venture_Multiplayer_Tweaks](https://valheim.thunderstore.io/package/VentureValheim/Venture_Multiplayer_Tweaks/)
 
 ### exploreRadius
+
 * [BiggerMinimapDiscoveryRadius](https://valheim.thunderstore.io/package/FXCK_U2/BiggerMinimapDiscoveryRadius/ )
 
 ## [Player]
@@ -209,7 +215,6 @@ You can replace some of the features with
 ### baseMaximumWeight, baseMegingjordBuff, baseAutoPickUpRange
 
 * [AllTheBases](https://valheim.thunderstore.io/package/Azumatt/AllTheBases/)
-
 
 ### cropNotifier
 
@@ -234,14 +239,17 @@ You can replace some of the features with
 [PassivePowers](https://valheim.thunderstore.io/package/Smoothbrain/PassivePowers/)
 
 ### Disable the Guardian Buff animation (disableGuardianBuffAnimation)
+
 * [AzuMiscPatches](https://valheim.thunderstore.io/package/Azumatt/AzuMiscPatches/)
 
 ### autoEquipShield, autoUnequipShield
 
-* [SheildMeBruh](https://valheim.thunderstore.io/package/Vapok/ShieldMeBruh/) <em>This one is recommended to be used over the other one listed</em>
+* [SheildMeBruh](https://valheim.thunderstore.io/package/Vapok/ShieldMeBruh/) <em>This one is recommended to be used
+  over the other one listed</em>
 * [Shield_Auto_Equip](https://valheim.thunderstore.io/package/Zinal001/Shield_Auto_Equip/)
 
 ### queueWeaponChanges
+
 * [Queue_Me_Maybe](https://valheim.thunderstore.io/package/Azumatt/Queue_Me_Maybe/)
 
 ### skipIntro
@@ -322,9 +330,11 @@ You can replace some of the features with
 
 ## [Inventory]
 
-* [AzuExtendedPlayerInventory](https://valheim.thunderstore.io/package/Azumatt/AzuExtendedPlayerInventory/) <em>This is recommended over other variations of ExtendedPlayerInventory. This one comes with fixes to ensure you won't have a bugged inventory</em>
+* [AzuExtendedPlayerInventory](https://valheim.thunderstore.io/package/Azumatt/AzuExtendedPlayerInventory/) <em>This is
+  recommended over other variations of ExtendedPlayerInventory. This one comes with fixes to ensure you won't have a
+  bugged inventory</em>
 * [OdinsExtendedInventory](https://valheim.thunderstore.io/package/OdinPlus/OdinsExtendedInventory/) <em>Or literally
-    any variation of it can replace most things from this section</em>
+  any variation of it can replace most things from this section</em>
 * [AzuContainerSizes](https://valheim.thunderstore.io/package/Azumatt/AzuContainerSizes/)
 
 ## [FreePlacementRotation]
@@ -361,7 +371,7 @@ You can replace some of the features with
 
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
- ## [GridAlignment]
+## [GridAlignment]
 
 * [PerfectPlacement](https://valheim.thunderstore.io/package/Azumatt/PerfectPlacement/)
 * [Infinity Hammer](https://valheim.thunderstore.io/package/JereKuusela/Infinity_Hammer/)
@@ -381,29 +391,15 @@ You can replace some of the features with
 
 * [ConversionSizeAndSpeed](https://valheim.thunderstore.io/package/Smoothbrain/ConversionSizeAndSpeed/)
 
-> ## [PlayerProjectile]  REPLACEMENT UNKNOWN
+## [PlayerProjectile]
 
-> Change false to true to enable this section. https://valheim.plus/documentation/list#PlayerProjectile
-> enabled=false
+### playerMinChargeVelocityMultiplier, playerMaxChargeVelocityMultiplier, playerMinChargeAccuracyMultiplier, playerMaxChargeAccuracyMultiplier
 
-> Value of 50 would increase the minimum charge velocity from 2 to 3.
-> playerMinChargeVelocityMultiplier=0
+* [BowPlugin](https://valheim.thunderstore.io/package/blacks7ar/BowPlugin/)
 
-> Value of 50 would increase the maximum charge velocity (of Finwood bow) from 50 to 75.
-> playerMaxChargeVelocityMultiplier=0
 
-> Value of (+)50 increase in accuracy will change the variance of arrows 20 degree to 10 degree at the point of minimum
-> charge release.
-> playerMinChargeAccuracyMultiplier=0
-
-> Value of (+)50 increase in accuracy will change the variance of arrows 1 degree to 0.5 degree at the point of maximum
-> charge release.
-> playerMaxChargeAccuracyMultiplier=0
-
-> Enabling this option will linearly scale by skill level from the base values of the weapon to the modified values (
-> according to multipliers above).
-> enableScaleWithSkillLevel=false
-
+* enableScaleWithSkillLevel **(REPLACEMENT UNKNOWN)**
+    * `Enabling this option will linearly scale by skill level from the base values of the weapon to the modified values (according to multipliers above).`
 
 > ## [MonsterProjectile] REPLACEMENT UNKNOWN
 
@@ -416,7 +412,6 @@ You can replace some of the features with
 > Value of (+)10 increase in accuracy will change the variance of projectile 1 degree to 0.9 degree at the point of
 > projectile release.
 > monsterMaxChargeAccuracyMultiplier=0
-
 
 ## [Tameable]
 
@@ -431,6 +426,7 @@ You can replace some of the features with
   outdated quickly</em>
 
 ## [Brightness]
+
 * [NightLight](https://valheim.thunderstore.io/package/Azumatt/NightLight/)
 
 > ## [Chat] REPLACEMENT UNKNOWN
