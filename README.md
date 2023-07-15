@@ -369,6 +369,7 @@ You can replace some of the features with
 
 ## [FirstPerson]
 
+* [FirstPersonMode](https://valheim.thunderstore.io/package/Azumatt/FirstPersonMode/)
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
 ## [GridAlignment]
@@ -379,6 +380,7 @@ You can replace some of the features with
 ## [CraftFromChest]
 
 * [AzuCraftyBoxes](https://valheim.thunderstore.io/package/Azumatt/AzuCraftyBoxes/)
+* [Craft_From_Containers_Redux](https://valheim.thunderstore.io/package/sbtoonz/Craft_From_Containers_Redux/)
 * [CraftFromContainers](https://valheim.thunderstore.io/package/aedenthorn_mods/CraftFromContainers/) <em>Any variation
   of it from aedenthorn. Recommended to get the latest listed here though</em>
 * [OdinsCraftyBoxes](https://valheim.thunderstore.io/package/OdinPlus/OdinsCraftyBoxes/)
