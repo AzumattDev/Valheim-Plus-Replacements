@@ -80,7 +80,7 @@ mods</b></em>
 
 * [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
 
-* [Customizable_Camera](https://valheim.thunderstore.io/package/NotMyMods/Customizable_Camera/)
+* [Customizable_Camera](https://valheim.thunderstore.io/package/NotMyMods/Customizable_Camera/) {BROKEN! Would replace if the mod was updated}
 
 ## [Experience]
 
