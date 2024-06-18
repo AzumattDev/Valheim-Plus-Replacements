@@ -78,9 +78,11 @@ mods</b></em>
 
 ## [Camera]
 
-* [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
+* [Customizable_Camera](https://valheim.thunderstore.io/package/HBK/Customizable_Camera_Fix/)
 
-* [Customizable_Camera](https://valheim.thunderstore.io/package/NotMyMods/Customizable_Camera/) {BROKEN! Would replace if the mod was updated}
+* [CameraTweaks](https://thunderstore.io/c/valheim/p/Searica/CameraTweaks/) the most recent zooming mod
+
+* [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/) {Possibility that this is broken}
 
 ## [Experience]
 
@@ -370,7 +372,7 @@ You can replace some of the features with
 ## [FirstPerson]
 
 * [FirstPersonMode](https://valheim.thunderstore.io/package/Azumatt/FirstPersonMode/)
-* [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/)
+* [RoundstoneScrollFirstPerson](https://valheim.thunderstore.io/package/RoundStone/RoundStoneScrollFirstPerson/) {Possibility that this is broken}
 
 ## [GridAlignment]
 
